@@ -178,7 +178,7 @@ else {
                     <input className={" input-form "} type="text" placeholder="State" value={state} onChange={changeDetail} name="state"/>
                     <label className={"label-form font-weight-bold"}>COUNTRY *</label>
                     <input className={" input-form "} type="text" placeholder="Country" value={country} onChange={changeDetail} name="country"/>
-                    <button className={"button-form button-form mt-5"} type="submit" onClick={putOnMap}>SEARCH</button>
+                    <button className={"button-form  mt-5"} type="submit" onClick={putOnMap}>SEARCH</button>
                     <div className="brand-title-again align-self-center">{backgroundImg}</div>
                 </div>
             </div>

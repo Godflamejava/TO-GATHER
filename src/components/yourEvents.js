@@ -82,6 +82,7 @@ const YourEvents = () => {
             type
         })
         setEvents(events)
+            alert("Your new  event is created");
     }
 
 
@@ -112,19 +113,19 @@ const YourEvents = () => {
                             <input className="input-form" placeholder="Event Name" type={"textbox"} value={title} onChange={changeDetail} name="title"></input>
                         </div>
                         <div className="color">
-                            <textarea className="input1" name="Description" placeholder="Event Description" spellcheck="false" value={description} onChange={changeDetail}></textarea>
+                            <textarea className="input1" name="description" placeholder="Event Description" spellcheck="false" value={description} onChange={changeDetail}></textarea>
                         </div>
                         <div className="centering_div d-flex flex-row">
                         <div className="box">
                             <select value={type} onChange={changeDetail} name="type">
-                                <option>Event Type</option>
+                                <option>Type</option>
                                 <option>Reforestration</option>
                                 <option>Marathon</option>
                                 <option>Cleaning</option>
                                 <option>Others</option>
                             </select>
                         </div>
-                        <button className="button-form" onClick={createEventNew}>Create</button>
+                        <button className="button-form-1" onClick={createEventNew}>Create</button>
                         </div>
                     </div>
                 </div>
