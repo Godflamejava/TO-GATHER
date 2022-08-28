@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.map_container{
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.outer_container_big{
+  width: 100%;
+  text-align: center;
+  background: #101820FF;
+ height: auto;
+}
+.text-setting{
+  color: #F2AA4CFF;
+  font-family: Impact;
+}
+
+.navbar{
+  height: 60px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+span.navbar-brand{
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: coral;
+}
+
+span.navbar-brand:hover{
+  color: coral;
+  cursor: pointer;
+}
+
+
+
+.text-setting2{
+  color: #F2AA4CFF;
+  font-weight: bold;
+  width: 600px;
+  align-self: center;
+}
+
+.myButton{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.myButton img {
+  width: 30px;
+  height: 30px;
+}
+.container-popup {
+  width: 500px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 110px 110px;
+  grid-template-rows: 50px 50px 50px 50px;
+}
+.item-1{
+  background: red;
+  align-items: center;
+  display: flex;
+}
+.item-2{
+  background: coral;
+  align-items: center;
+  display: flex;
+}
+
+.item_name{
+  color: blanchedalmond;
+  font-size: 12px;
+  margin: 0 auto;
+  font-weight: bold;
+
+}
+
+.btn.coral-class{
+  border-color: white;
+  color: white;
+}
+
+.btn.coral-class:hover{
+  border-color: coral;
+  color: white;
+  background-color: coral;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+      .outer_card_box {
+        width: 100%;
+        align-self: center;
+        display: flex; /* displays flex-items (children) inline */
+        overflow-x: auto;
+      }
+
+      .inner_card {
+        flex: 0 0 20%; /* doesn't grow nor shrink, initial width set to 25% of the parent's */
+      }
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
